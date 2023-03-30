@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 80%;
+    margin: 0px auto;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    overflow: hidden;
+    border-radius: 5px;
+    position:fixed;
+    left: 10%;
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+nav ul li a:hover{
+
+    padding: 5px 15px;
+    background: black;
+    color: white;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+
+
+section{
+    padding: 100px 80px;
+    overflow: hidden;
+
+}
+.section-header{
+    background-image: url('assets/images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.half-width{
+    width: 45%;
+    margin: 0px 2%;
+    padding: 0px 5px;
+    float: left;
+    
+
+}
+.half-width img {
+    width: 80%;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 50%;
+     
+}
+.content_area {
+    margin: 150px 0px 0px 0px;
+}
+
+.content_area h2{
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.content_area h3{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #e02f9f;
+}
+.content_area p {
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #241f1f;
+    opacity: .8;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+
+}
+.content_area a{
+    text-decoration: none;
+    color: beige;
+    background: #e02f9f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.biography_area{
+    background-image: url('assets/images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.latest_work_area{
+    background-image: url('assets/images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest_work_area h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.work_box{
+    width: 80%;
+    margin: 0px auto;
+    
+}
+.single_work_box{
+    width: 30%;
+    float: left;
+    margin: 0px 20px;
+   
+}
+.single_work_box img{
+    width: 100%;
+
+}
+footer{
+    background-image: url('assets/images/footer-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+footer h1{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #47c2ec;
+    margin-bottom: 80px;
+}
+.client h5{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: slategray;
+    margin: 0px;
+    padding: 2px 0px;
+    line-height: 0px;
+
+}
+.client p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+.about_client{
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+        
+}
+.about_client p{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightslategray;
+    opacity: .7;
+    padding-top: 50px;
+        
+}
+
+.box{
+    width: 500px;
+    height: 140px;
+    background: #e9147b;
+    margin: 50px auto;
+    margin-bottom: 100px !important ;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+.box p {
+    padding-top: 15px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 14px;
+
+}
+.box address{
+    font-size: 24px;
+    padding: 10px auto;
+}
+.copyrights p{
+    text-align: center;
+    font-size: 12px;
+}
+
+

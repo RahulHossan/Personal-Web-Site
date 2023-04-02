@@ -78,7 +78,7 @@
     }
 
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 768px) {
 
     header{
         display: none;
@@ -146,7 +146,7 @@
         }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 576px) {
 
     header{
         display: none;
@@ -178,7 +178,7 @@
 
     .half-width img {
         width: 70%;
-        height: 235px;
+        height: 300px;
         margin: 80px 70px 0px;
     }
 

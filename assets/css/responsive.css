@@ -94,7 +94,7 @@
     }
 
     .content_area {
-        margin: opx;
+        margin: 0px;
         text-align: center;
     }
 
@@ -144,8 +144,6 @@
             font-weight: 100;
             font-size: 11px;
         }
-
-
 }
 
 @media screen and (max-width: 380px) {
@@ -219,7 +217,7 @@
 
     .box address {
         font-size: 16px;
-        padding: 30px auto;
+        padding: 30px 0px;
     }
 
     .box p {
@@ -228,7 +226,4 @@
         font-weight: 100;
         font-size: 11px;
     }
-
-
-    
 }
